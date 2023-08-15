@@ -9,8 +9,8 @@
 </head>
 <body>
         <div class="navbar">
-            <div><h1>Open University of Srilanka</h1>
-                <h2>Entry Attendence System</h2></div>
+        <div><h1>Kaushamararathne</h1>
+                <h2>Authentication System</h2></div>
             
                 <form action="include\login.inc.php" method="post">
                 <a>login</a><br>
@@ -18,8 +18,8 @@
                     <input type="text" name="uId" placeholder="Enter Username" required><br>
                     <label for="userPw">userPw</label>
                     <input type="password" name="uPw" placeholder="Enter Password" required><br>
-                    <button type="submit" name="submit_staff">login</button><br>
-                    <a href="login-admin.php">login as a admin</a>
+                    <button type="submit" name="submit">login</button><br>
+                    <a class="form_a" href="register.php">Register</a></form>
                 </form>
            
         </div>

@@ -9,17 +9,20 @@
 </head>
 <body>
         <div class="navbar">
-            <div><h1>Open University of Srilanka</h1>
-                <h2>Entry Attendence System</h2></div>
+            <div><h1>Kaushamararathne</h1>
+                <h2>Authentication System</h2></div>
             
-                <form action="include\login.inc.php" method="post">
-                    <a>admin login</a><br>
+                <form action="include\register.inc.php" method="post">
+                <a>Register</a><br>
                     <label for="userId">userId</label>
                     <input type="text" name="uId" placeholder="Enter Username" required><br>
+                    <label for="userId">NIC</label>
+                    <input type="text" name="NIC" placeholder="NIC Number" required>
                     <label for="userPw">userPw</label>
                     <input type="password" name="uPw" placeholder="Enter Password" required><br>
-                    <button type="submit" name="submit_admin">login</button><br>
-                    <a href="login.php">login as a staff</a> 
+                    <button type="submit" name="register">Register</button><br>
+                    <a href="login.php">login</a>
+                    <a class="form_a" href="register.php">Register</a></form>
                 </form>
            
         </div>
